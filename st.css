@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body {
+    background-color:  rgba(0, 0, 0, 0.062) ;
+    font-family: 'Noto Sans Mono', monospace;
+    color: black;
+    color: black;
+    overflow: auto;
+    text-align: center;
+    
+
+}
+h1{
+    font-family: 'Noto Sans Mono', monospace;
+    text-transform: lowercase;
+}
+
+#p{
+    font-size: 15pt;
+}
+
+#play-again {
+    display: none;
+}
+
+#main{
+    font-size: 14pt;
+     text-align: center;
+     margin: 0  auto;
+     height: 50%;
+     width: 50%;
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow:
+  2.8px 2.8px 7.1px rgba(0, 0, 0, 0.089),
+  6.7px 6.7px 17.2px rgba(0, 0, 0, 0.12),
+  12.5px 12.5px 32.3px rgba(0, 0, 0, 0.143),
+  22.3px 22.3px 57.6px rgba(0, 0, 0, 0.164),
+  41.8px 41.8px 107.8px rgba(0, 0, 0, 0.191),
+  100px 100px 258px rgba(0, 0, 0, 0.26);
+
+  
+;
+animation: myAnim 1s ease 0s 1 normal forwards;
+
+
+
+}
+
+.enviar {
+
+    width: 100px;
+    height: 50px;
+    box-shadow:
+  2.7px 7.1px 11.7px rgba(0, 0, 0, 0.48),
+  7.4px 19.5px 32.3px rgba(0, 0, 0, 0.326),
+  17.8px 47px 77.8px rgba(0, 0, 0, 0.254),
+  59px 156px 258px rgba(0, 0, 0, 0.196)
+;
+border: 0;
+border-radius: 20px;
+font-weight: bolder;
+font-size: 13pt;
+transition: ease-in-out 0.1s;
+
+
+
+
+  
+
+}
+hr{
+    opacity: 25%;
+}
+.enviar:hover {
+    width: 110px;
+    height: 55px;
+    font-size: 13pt;
+    transition: ease-in-out 0.2s;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
